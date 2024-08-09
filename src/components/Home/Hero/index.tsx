@@ -52,7 +52,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="flex flex-col md:flex-row items-center my-16 gap-10 md:gap-0">
+    <div className="flex flex-col md:flex-row items-center mb-16 mt-10 gap-10 md:gap-0">
       <div className="flex-1 flex flex-col py-10">
         <h1 className="font-semibold text-3xl md:text-5xl mb-5 text-center md:text-start">
           Prepare-se para sua melhor experiência odontológica de todos os
