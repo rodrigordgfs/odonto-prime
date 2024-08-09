@@ -4,6 +4,7 @@ import Services from "@/components/Home/Services";
 import CallPacient from "@/components/Home/CallPacient";
 import Specialists from "@/components/Home/Specialists";
 import Questions from "@/components/Home/Questions";
+import Footer from "@/components/shared/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <CallPacient />
       <Specialists />
       <Questions />
+      <Footer />
     </main>
   );
 }

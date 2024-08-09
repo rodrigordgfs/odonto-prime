@@ -20,7 +20,7 @@ const questions = [
 
 export default function Questions() {
   return (
-    <div className="my-10 flex flex-col items-center">
+    <div className="my-20 flex flex-col items-center">
       <h2 className="font-semibold text-4xl text-center">
         Frequently Ask Question
       </h2>
