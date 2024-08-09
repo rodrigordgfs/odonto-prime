@@ -3,6 +3,7 @@ import Header from "../components/shared/Header";
 import Services from "@/components/Home/Services";
 import CallPacient from "@/components/Home/CallPacient";
 import Specialists from "@/components/Home/Specialists";
+import Questions from "@/components/Home/Questions";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Services />
       <CallPacient />
       <Specialists />
+      <Questions />
     </main>
   );
 }
