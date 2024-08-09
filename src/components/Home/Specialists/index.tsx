@@ -9,75 +9,51 @@ import SpecialistCard from "./components/SpecialistCard";
 const specialists = [
   {
     id: "9786dca4-4860-4ac5-8500-9f254461f548",
-    name: "Dr. John Doe",
-    role: "Dentist",
-    image: "/doctor.jpg",
+    name: "Dr. Lucas Almeida",
+    role: "Ortodontia",
+    image: "/doctor-1.jpg",
   },
   {
     id: "9786dca4-4860-4ac5-8500-9f254461f548",
-    name: "Dr. John Doe",
-    role: "Dentist",
-    image: "/doctor.jpg",
+    name: "Dr. Eduardo Silva",
+    role: "Periodontia",
+    image: "/doctor-2.jpg",
   },
   {
     id: "9786dca4-4860-4ac5-8500-9f254461f548",
-    name: "Dr. John Doe",
-    role: "Dentist",
-    image: "/doctor.jpg",
+    name: "Dr. Gabriel Costa",
+    role: "Endodontia",
+    image: "/doctor-3.jpg",
   },
   {
     id: "9786dca4-4860-4ac5-8500-9f254461f548",
-    name: "Dr. John Doe",
-    role: "Dentist",
-    image: "/doctor.jpg",
+    name: "Dr. Rafael Oliveira",
+    role: "Implantodontia",
+    image: "/doctor-4.jpg",
   },
   {
     id: "9786dca4-4860-4ac5-8500-9f254461f548",
-    name: "Dr. John Doe",
-    role: "Dentist",
-    image: "/doctor.jpg",
+    name: "Dr. Marcelo Pereira",
+    role: "Odontopediatria",
+    image: "/doctor-5.jpg",
   },
   {
     id: "9786dca4-4860-4ac5-8500-9f254461f548",
-    name: "Dr. John Doe",
-    role: "Dentist",
-    image: "/doctor.jpg",
-  },
-  {
-    id: "9786dca4-4860-4ac5-8500-9f254461f548",
-    name: "Dr. John Doe",
-    role: "Dentist",
-    image: "/doctor.jpg",
-  },
-  {
-    id: "9786dca4-4860-4ac5-8500-9f254461f548",
-    name: "Dr. John Doe",
-    role: "Dentist",
-    image: "/doctor.jpg",
-  },
-  {
-    id: "9786dca4-4860-4ac5-8500-9f254461f548",
-    name: "Dr. John Doe",
-    role: "Dentist",
-    image: "/doctor.jpg",
-  },
-  {
-    id: "9786dca4-4860-4ac5-8500-9f254461f548",
-    name: "Dr. John Doe",
-    role: "Dentist",
-    image: "/doctor.jpg",
+    name: "Dr. André Santos",
+    role: "Estética Dentária",
+    image: "/doctor-6.jpg",
   },
 ];
 
 export default function Specialists() {
   return (
-    <div className="rounded-xl bg-[#E6F6FE] flex flex-col justify-center p-10">
+    <div className="rounded-xl bg-[#E6F6FE] flex flex-col justify-center p-10" id="especialists">
       <h2 className="font-semibold text-4xl text-center">
-        Meet our specialists
+        Conheça nossos especialistas
       </h2>
       <p className="max-w-[500px] w-full leading-5 text-lg text-center mt-10 mb-20 mx-auto">
-        We use only the best quality materials on the market in order to provide
-        the best products to our patients.
+        Na Odontoprime, contamos com um time de dentistas altamente qualificados
+        e dedicados a proporcionar o melhor cuidado para sua saúde bucal.
       </p>
       <Swiper
         modules={[Navigation]}

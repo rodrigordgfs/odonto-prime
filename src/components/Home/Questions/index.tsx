@@ -2,31 +2,41 @@ import FAQ from "./components/FAQ";
 
 const questions = [
   {
-    question: "What is Next.js?",
+    question: "Quais são os horários de funcionamento da clínica Odontoprime?",
     answer:
-      "Next.js is a React framework that enables several extra features, including server-side rendering and generating static websites.",
+      "A Odontoprime está aberta de segunda a sexta-feira, das 8h às 18h, e aos sábados, das 8h às 14h. Estamos fechados aos domingos.",
   },
   {
-    question: "What is Tailwind CSS?",
+    question: "Preciso de um agendamento para uma consulta?",
     answer:
-      "Tailwind CSS is a utility-first CSS framework for creating custom designs without having to write CSS from scratch.",
+      "Sim, é necessário agendar uma consulta para garantir um horário com um de nossos dentistas. Você pode agendar pelo telefone, pelo nosso site ou diretamente na clínica.",
   },
   {
-    question: "How do I install Tailwind CSS?",
+    question: "Qual é a política de cancelamento de consultas?",
     answer:
-      "You can install Tailwind CSS by following the official documentation at tailwindcss.com/docs/installation.",
+      "Se você precisar cancelar ou remarcar uma consulta, pedimos que o faça com pelo menos 24 horas de antecedência para evitar taxas de cancelamento. Por favor, entre em contato conosco o mais rápido possível para informar sobre qualquer mudança.",
+  },
+  {
+    question: "A clínica oferece tratamentos de ortodontia?",
+    answer:
+      "Sim, a Odontoprime oferece uma variedade de tratamentos ortodônticos, incluindo aparelhos fixos e invisíveis. Nossos especialistas podem avaliar sua necessidade e recomendar o melhor tratamento para você.",
+  },
+  {
+    question: "Vocês aceitam convênios odontológicos?",
+    answer:
+      "Sim, aceitamos diversos convênios odontológicos. Para confirmar se o seu plano é aceito, entre em contato conosco com as informações do seu convênio, e verificaremos as condições para o atendimento.",
   },
 ];
 
 export default function Questions() {
   return (
-    <div className="my-20 flex flex-col items-center">
+    <div className="my-20 flex flex-col items-center" id="faq">
       <h2 className="font-semibold text-4xl text-center">
-        Frequently Ask Question
+        Perguntas frequentes
       </h2>
       <p className="leading-5 max-w-[500px] w-full text-center mt-5 mb-10">
-        We use only the best quality materials on the market in order to provide
-        the best products to our patients.
+        Utilizamos apenas materiais da melhor qualidade do mercado para fornecer
+        os melhores produtos para nossos pacientes.
       </p>
       <FAQ questions={questions} />
     </div>

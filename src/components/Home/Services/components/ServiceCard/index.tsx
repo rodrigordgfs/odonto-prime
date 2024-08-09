@@ -19,7 +19,7 @@ export default function ServiceCard({
       <p className="text-lg text-center leading-5">{description}</p>
       <div className="flex flex-row items-center gap-3 group cursor-pointer">
         <p className="underline font-semibold group-hover:text-blue-600">
-          Learn More
+          Saiba mais
         </p>
         <div className="rounded-full border-2 border-zinc-950 p-1 group-hover:border-blue-600">
           <ChevronRight size={18} className="group-hover:text-blue-600" />

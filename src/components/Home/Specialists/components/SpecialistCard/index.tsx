@@ -23,7 +23,7 @@ export default function SpecialistCard({
       />
       <div className="absolute flex flex-col justify-between h-80 w-full">
         <Linkedin size={24} className="text-blue-600 m-4" />
-        <div className="p-4 m-4 rounded-lg flex flex-col text-white bg-blue-200">
+        <div className="p-4 m-4 rounded-lg flex flex-col text-white bg-blue-500">
           <h3 className="font-semibold text-xl">{name}</h3>
           <p className="text-sm">{role}</p>
         </div>
