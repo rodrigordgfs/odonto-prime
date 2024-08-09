@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Montserrat, } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
+import "swiper/swiper-bundle.css";
 
 const inter = Montserrat({ subsets: ["latin"] });
 
@@ -18,7 +19,9 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className={inter.className}>
         <div className="flex w-full max-w-full">
-          <div className="flex flex-col max-w-7xl w-full mx-auto px-4">{children}</div>
+          <div className="flex flex-col max-w-7xl w-full mx-auto px-4">
+            {children}
+          </div>
         </div>
       </body>
     </html>
